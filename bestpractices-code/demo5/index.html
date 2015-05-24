@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head lang="en">
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="stylesheets/app.css"/>
+
+        <title>Simple Structure</title>
+    </head>
+    <body>
+
+        <div class="container" ui-view></div>
+
+        <script src="libs/jquery-2.1.3.js"></script>
+        <script src="libs/bootstrap.js"></script>
+        <script src="libs/angular.js"></script>
+        <script src="libs/angular-route.js"></script>
+        <script src="libs/ui-bootstrap-tpls-0.12.1.js"></script>
+        <script src="libs/angular-ui-router.js"></script>
+
+        <script src="app/app.module.js"></script>
+        <script src="app/app.config.js"></script>
+
+        <script src="app/dashboard/orders/ordersController.js"></script>
+        <script src="app/dashboard/orders/ordersDirective.js"></script>
+        <script src="app/dashboard/orders/ordersService.js"></script>
+
+        <script src="app/dashboard/projects/projectsController.js"></script>
+        <script src="app/dashboard/projects/projectsDirective.js"></script>
+        <script src="app/dashboard/projects/projectsService.js"></script>
+
+        <script src="app/dashboard/todos/todosController.js"></script>
+        <script src="app/dashboard/todos/todosDirective.js"></script>
+        <script src="app/dashboard/todos/todosService.js"></script>
+
+        <script src="app/login/controllers/loginController.js"></script>
+        <script src="app/login/directives/loginDirective.js"></script>
+        <script src="app/login/services/loginService.js"></script>
+
+    </body>
+</html>
